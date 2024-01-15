@@ -1,18 +1,11 @@
 package application;
 
-import java.util.Scanner;
-
-import boardgame.Position;
+import boardgame.Board;
 
 public class Program {
 	
-	public static void main(String[] args) {
-	
-		Scanner scan = new Scanner(System.in);
+	public static void main(String[] args) {	
 
-		Position pos = new Position(3,5);			
-		System.out.println(pos);
-				
-		scan.close();
+		Board board = new Board(8, 8);					
 	}	
 } 
